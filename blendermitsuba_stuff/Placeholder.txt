@@ -1,0 +1,1 @@
+Be sure to place .ply in "meshes" folder before loading .xml in Sionna.
