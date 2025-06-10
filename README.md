@@ -27,15 +27,12 @@ This implementations builds on the same dataset and setup as the original script
 
 
 ### Improvements Using Sionna RT 
+Although our attempts using Sionna RT were inconclusive, to reproduce our results below, use SionnaSimulation.ipynb. 
+![SionnaResults](https://github.com/user-attachments/assets/c4542123-24ff-4838-8fdb-08e2f1078e02)
 
+**Follow the below steps to reproduce these results:**
+1. Install Sionna: `pip install sionna`
+2. Launch Jupyter and run the notebook cell by cell using Python 3.7+ and TensorFlow 2+
 
-**To reproduce the results, please follow these steps:**
-1. Install DeepMIMO-python by `pip install DeepMIMO` (If not already installed)
-2. Download and extract the source data of the 'O1_60' scenario (available on [this link](https://deepmimo.net/scenarios/o1-scenario/)).
-3. Edit line 48 of the python script to set the folder where O1_60 dataset folder is contained.
-E.g., parameters['dataset_folder'] = r'C:\Users\xxx\Desktop\scenarios' 
-4. Run the python script. This step requires Python 3.7 and Tensorflow 2+.
-
-If you have any questions regarding the code and used dataset, please write to DeepMIMO dataset forum https://deepmimo.net/forum/ or contact [Ahmed Alkhateeb](https://www.aalkhateeb.net/).
 # Referencing
 > A. Alkhateeb, S. Alex, P. Varkey, Y. Li, Q. Qu and D. Tujkovic, "[Deep Learning Coordinated Beamforming for Highly-Mobile Millimeter Wave Systems](https://ieeexplore.ieee.org/abstract/document/8395149)," in IEEE Access, vol. 6, pp. 37328-37348, 2018.
