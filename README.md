@@ -13,6 +13,8 @@ This figure is based on the Python version of the [DeepMIMO dataset](https://dee
 3. Open the Python script, Coordinated_Beamforming.py and set the path to your extracted dataset by editing line 48: `parameters['dataset_folder'] = r'C:\Path\To\Your\scenarios'`
 4. Run the scipt using Python 3.7+ and TensorFlow 2+: `python Coordinated_Beamforming.py`
 
+Credit goes to the paper's code that provided us with the means to setup and run a reproduction of their work, located in this [repository](https://github.com/wireless-intelligence-lab/DeepLearning-CoordinatedBeamforming).
+
 ### Model Improvements for Limited Data Scenarios
 The original model performs significantly worse when evaluated with 2 base stations and 50 user rows. The notebook, ImprovedBaseline.ipynb, contains an enhanced version of the baseline model from the original paper to get improved results on this scenario. The notebook produces the below results:
 ![newModel2Base](https://github.com/user-attachments/assets/85d152f7-8f24-49ab-aa0c-c73c3062c6de)
@@ -23,8 +25,6 @@ This implementations builds on the same dataset and setup as the original script
 2. Download and extract the '01_60' scenario from [official DeepMIMO website](https://deepmimo.net/scenarios/o1-scenario/).
 3. Edit cell 4 of the notebook to set the path to you extracted dataset: `parameters['dataset_folder'] = r'C:\Path\To\Your\scenarios'`
 4. Launch Jupyter and run the notebook cell by cell using Python 3.7+ and TensorFlow 2+
-
-Credit goes to the paper's code that provided us with the means to setup and run a reproduction of their work, located in this [repository](https://github.com/wireless-intelligence-lab/DeepLearning-CoordinatedBeamforming).
 
 ### Improvements Using Sionna RT 
 Although our attempts using Sionna RT were inconclusive, to reproduce our results below, use SionnaSimulation.ipynb. 
