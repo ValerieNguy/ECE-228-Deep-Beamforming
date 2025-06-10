@@ -24,7 +24,7 @@ This implementations builds on the same dataset and setup as the original script
 3. Edit cell 4 of the notebook to set the path to you extracted dataset: `parameters['dataset_folder'] = r'C:\Path\To\Your\scenarios'`
 4. Launch Jupyter and run the notebook cell by cell using Python 3.7+ and TensorFlow 2+
 
-
+Credit goes to the paper's code that provided us with the means to setup and run a reproduction of their work, located in this [repository](https://github.com/wireless-intelligence-lab/DeepLearning-CoordinatedBeamforming).
 
 ### Improvements Using Sionna RT 
 Although our attempts using Sionna RT were inconclusive, to reproduce our results below, use SionnaSimulation.ipynb. 
