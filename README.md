@@ -3,8 +3,10 @@
 ## Code Package Content 
 
 ### Baseline Paper Reproduction
+Below two figures show deep learning performs better than baseline with increaing dataset size and in mobility scenario. To reproduce the them, we have used MATLAB(for dataset generation and plotting + python for deep learning) for the 4 basestation case. 
 
 ![Result_BF](https://github.com/user-attachments/assets/8ffc27e2-5508-415f-a19e-c6c4483f2c36)
+
 
 
 **Follow the below steps to reproduce these results:**
