@@ -3,15 +3,18 @@
 ## Code Package Content 
 
 ### Baseline Paper Reproduction
-Below two figures show deep learning performs better than baseline with increaing dataset size and in mobility scenario. To reproduce the them, we have used MATLAB(for dataset generation and plotting + python for deep learning) for the 4 basestation case. 
+Below two figures show deep learning model performing better than baseline with increaing dataset size and in mobility scenario. To reproduce the them, we have used MATLAB(for dataset generation and plotting + python for deep learning) for the 4 basestation case. 
 
 ![Result_BF](https://github.com/user-attachments/assets/8ffc27e2-5508-415f-a19e-c6c4483f2c36)
 
 
 
 **Follow the below steps to reproduce these results:**
-1. fill in here
-2. and here
+1. Download DeepMIMOv2 dataset generation files from https://www.deepmimo.net/versions/v2-matlab/
+   and the source data of the 'O1_60' scenario from https://www.deepmimo.net/scenarios/o1-scenario/.
+2. Run the Generate_DL_data.m in MATLAB to produce the dataset. Do not clear the workspace as few variables will be reused for figure plotting. Dataset will be stored in DLCB_Dataset folder.
+3. Run the DL_beamforming.ipynb for deep learning model. This should produce 15 files named DL_Result%.mat. Store these in your local MATLAB folder.
+4. Run the Generate_Figure_dataset_mobility.m to plot the two figures.
 
 Credit goes to the paper's code that provided us with the means to setup and run a reproduction of their work, located in this [repository](https://github.com/wireless-intelligence-lab/DeepLearning-CoordinatedBeamforming).
 
