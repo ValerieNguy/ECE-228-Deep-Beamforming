@@ -11,7 +11,7 @@ Below two figures show deep learning model performing better than baseline with 
 **Follow the below steps to reproduce these results:**
 1. Download DeepMIMOv2 dataset generation files from https://www.deepmimo.net/versions/v2-matlab/
    and the source data of the 'O1_60' scenario from https://www.deepmimo.net/scenarios/o1-scenario/.
-2. Run the Generate_DL_data.m in MATLAB to produce the dataset. Do not clear the workspace as few variables will be reused for figure plotting. Dataset will be stored in DLCB_Dataset folder.
+2. Run the Generate_DL_data.m in MATLAB to produce the dataset. Do not clear the workspace as few variables will be reused for figure plotting. Dataset will be stored in DLCB_dataset_matlab folder.
 3. Run the DL_beamforming.ipynb for deep learning model. This should produce 15 files named DL_Result%.mat. Store these in your local MATLAB folder.
 4. Run the Generate_Figure_dataset_mobility.m to plot the two figures.
 
