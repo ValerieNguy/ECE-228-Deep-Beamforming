@@ -6,8 +6,7 @@
 Below two figures show deep learning model performing better than baseline with increaing dataset size and in mobility scenario. To reproduce the them, we have used MATLAB(for dataset generation and plotting + python for deep learning) for the 4 basestation case. 
 
 ![Result_BF](https://github.com/user-attachments/assets/8ffc27e2-5508-415f-a19e-c6c4483f2c36)
-
-
+![Screenshot 2025-05-31 153313](https://github.com/user-attachments/assets/9a793acf-d6e8-4e57-a3f3-7a31c42b1798)
 
 **Follow the below steps to reproduce these results:**
 1. Download DeepMIMOv2 dataset generation files from https://www.deepmimo.net/versions/v2-matlab/
