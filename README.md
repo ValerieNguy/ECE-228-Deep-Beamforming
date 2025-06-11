@@ -5,8 +5,9 @@
 ### Baseline Paper Reproduction
 Below two figures show deep learning model performing better than baseline with increaing dataset size and in mobility scenario. To reproduce the them, we have used MATLAB(for dataset generation and plotting) + python (for deep learning) for the 4 basestation case. 
 
-![Result_BF](https://github.com/user-attachments/assets/8ffc27e2-5508-415f-a19e-c6c4483f2c36)
-![Screenshot 2025-05-31 153313](https://github.com/user-attachments/assets/9a793acf-d6e8-4e57-a3f3-7a31c42b1798)
+![report_bf](https://github.com/user-attachments/assets/4c972a2e-af8b-4f39-b7d7-77ba9df4831f)
+
+![report_num_beams](https://github.com/user-attachments/assets/df4b43ae-923b-4c90-a7e1-0b5ef55f81ac)
 
 **Follow the below steps to reproduce these results:**
 1. Download DeepMIMOv2 dataset generation files from https://www.deepmimo.net/versions/v2-matlab/
